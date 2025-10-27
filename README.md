@@ -9,6 +9,9 @@
   Student memiliki daftar Course.
   Jika objek Student dihapus, objek Course tetap bisa digunakan oleh Student lain.
   Ditandai dalam UML dengan diamond putih (◊) di sisi Student.
+5. Abstract class → digunakan jika ada perilaku umum tetapi implementasi berbeda di subclass.
+   Interface → digunakan jika beberapa class berbeda perlu memiliki kemampuan yang sama
+   tanpa hubungan pewarisan.
 4. Polymorphism memungkinkan objek dari subclass yang berbeda (Student, Lecturer)diperlakukan
    sebagai tipe superclass (Person).Ketika sebuah method dipanggil melalui referensi bertipe
    superclass,implementasi instance sebenarnya (subclass) yang akan dieksekusi —ini disebut
@@ -29,7 +32,3 @@ mana yang dijalankan.
 JVM mencari method introduce() di kelas objek aktual: jika objek Student,
 jalankan Student.introduce(); jika Lecturer, jalankan Lecturer.introduce();
 jika tidak ada override, gunakan Person.introduce().
-
-5. Abstract class → digunakan jika ada perilaku umum tetapi implementasi berbeda di subclass.
-   Interface → digunakan jika beberapa class berbeda perlu memiliki kemampuan yang sama
-   tanpa hubungan pewarisan.
