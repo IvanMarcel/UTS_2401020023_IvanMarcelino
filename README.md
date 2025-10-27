@@ -10,9 +10,9 @@
   Jika objek Student dihapus, objek Course tetap bisa digunakan oleh Student lain.
   Ditandai dalam UML dengan diamond putih (◊) di sisi Student.
 4. Polymorphism memungkinkan objek dari subclass yang berbeda (Student, Lecturer)diperlakukan
-sebagai tipe superclass (Person).Ketika sebuah method dipanggil melalui referensi bertipe
-superclass,implementasi instance sebenarnya (subclass) yang akan dieksekusi —ini disebut
-dynamic dispatch atau runtime polymorphism.
+   sebagai tipe superclass (Person).Ketika sebuah method dipanggil melalui referensi bertipe
+   superclass,implementasi instance sebenarnya (subclass) yang akan dieksekusi —ini disebut
+   dynamic dispatch atau runtime polymorphism.
 
 Penjelasan langkah-per-langkah:
 
