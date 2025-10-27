@@ -13,7 +13,6 @@
    sebagai tipe superclass (Person).Ketika sebuah method dipanggil melalui referensi bertipe
    superclass,implementasi instance sebenarnya (subclass) yang akan dieksekusi —ini disebut
    dynamic dispatch atau runtime polymorphism.
-
 Penjelasan langkah-per-langkah:
 
 - Pembuatan objek
