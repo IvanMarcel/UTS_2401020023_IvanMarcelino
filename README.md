@@ -1,3 +1,4 @@
+dicek di code read me nya pak
 1. class adalah blueprint atau cetak biru, misalnya Course.
    sedangkan object adalah hasil nyata dari class, misalnya c1 adalah objek dari Course.
 2. Encapsulation penting karena:
